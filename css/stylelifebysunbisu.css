@@ -67,7 +67,7 @@ li.dropdown {
     background-image: url(/img/cute_doodles_hand_drawn_pattern.jpg);
 }
 
-h1 {
+h1.header {
     color: tomato;
     font-size: 30px;
     margin-top: 0px;

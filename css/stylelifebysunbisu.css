@@ -39,6 +39,7 @@
   opacity: 1;
   margin: 10px;
   padding: 10px;
+  z-index: 1;
 }
 
 .main-navbar li {

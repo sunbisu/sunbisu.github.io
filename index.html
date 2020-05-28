@@ -10,6 +10,9 @@
 
   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+  <link rel="stylesheet" href="https://unpkg.com/flickity-fullscreen@1/fullscreen.css">
+  <script src="https://unpkg.com/flickity-fullscreen@1/fullscreen.js"></script>
 </head>
 
 <body class="background-body">
@@ -40,7 +43,7 @@
       <a href="javascript:void(0)" class="dropbtn">LIFESTYLE</a>
       <div class="dropdown-content">
         <a href="/thought.html" target="_self">Thoughts</a>
-        <a href="/foods.html" target="_self">Foods</a>
+        <a href="/foodlover.html" target="_self">Foods</a>
         <a href="/mybeloved.html" target="_self">My Beloved</a>
         <a href="/notes.html" target="_self">Notes</a>
       </div>
@@ -48,7 +51,10 @@
     <li><a href="#contact">CONTACT</a></li>
   </ul>
   <div class="main-content">
-    <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true , "draggable" : true, "wrapAround" : true, "autoPlay" : true }'>
+    <div class="main-carousel" data-flickity='{ 
+      "cellAlign": "center", "contain": false , "draggable" : true, "wrapAround" : true, "autoPlay" : false, 
+      "fullscreen" : true, "freeScroll": false
+    }'>
       <div class="carousel-cell">
         <div class="gallery">
           <img src="/img/Beo_Book.jpg" alt="BeoBook">

@@ -107,12 +107,43 @@
 .main-carousel div.gallery {
   margin: 10px;
   width: 380px;
+  height: 100%;
+}
+/* add new style for full screen*/
+
+.main-carousel div.carousel-cell {
+  background: black;
+}
+
+.main-carousel.is-fullscreen div.carousel-cell {
+  width: 70%;
+  height: 100%;
+  background: black;
+}
+
+.main-carousel.is-fullscreen div.carousel-cell div.gallery {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-carousel.is-fullscreen div.carousel-cell div.gallery img {
+  max-width: 100%;
+  display: block;
+  object-fit: contain;
+  background-color: black;
+  height: 90%;
+  margin: 0 auto;
 }
 
 .main-carousel div.gallery img {
   width: 100%;
   height: 500px;
   object-fit: cover;
+  background-color: bisque;
+  display: block;
 }
 
 .main-carousel div.gallery .desc {
